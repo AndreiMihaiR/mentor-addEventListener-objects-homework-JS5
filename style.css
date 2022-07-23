@@ -1,0 +1,88 @@
+#blogContainer {
+    /* border: 5px solid rgb(212, 120, 120); */
+    background-color: rgba(181, 183, 182, 0.673);
+    margin-top: 100px;
+    border-radius: 3%;
+    max-width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#inputContainer {
+    border: 1px solid black;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    margin: 30px;
+    background-color: hsl(152, 43%, 49%);
+
+}
+#form {
+    /* border: 10px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px 5px 30px;
+    align-items: flex-start;
+}
+
+#messageBox {
+    /* border: 3px solid rgb(26, 141, 218); */
+    width: 200px;
+    height: 70px;
+}
+
+#submitResult {
+    border: 1px solid black;
+    background-color: hsl(152, 43%, 49%);
+    border-radius: 3%;
+    width: 250px;
+    margin: 30px ;
+    height: 400px;
+}
+
+img {
+    max-width: fit-content;
+    height: auto;
+    align-items: center;
+    width: 250px;
+    margin: 50px 10px 0 0;
+}
+
+#img {
+    /* border: 1px solid; */
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#submitBtn {
+    /* border: 2px solid rgb(0, 60, 128); */
+    max-width: fit-content;
+    border: none;
+    display: flex;
+    border-radius: 15%;
+    flex-direction: column-reverse;
+    margin-left: 150px;
+    margin-top: 5px;
+
+}
+
+.gender {
+    /* border: 10px solid purple; */
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+}
+
+.margin {
+    margin: 20px 0 0 0 ;
+}
+
+.invalid {
+    border: 1px solid red;
+    
+}

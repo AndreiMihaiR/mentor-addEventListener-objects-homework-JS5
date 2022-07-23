@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input placeholder="name" type="text">
+    <button>Submit</button>
+
+    <div id="container"></div>
+    <div id="blogContainer">
+        <div id="inputContainer">
+            <form id="form" action="">
+                <h3 class="margin">First Name</h3>
+                <input class="invalid" placeholder="First Name" id="firstName" type="text">
+                <h3 class="margin">Last Name</h3>
+                <input class="invalid" placeholder="Last Name" id="lastName" type="text">
+                
+                <h3 class="margin">Gender</h3>
+                <div class="gender">
+                    <INPUT  TYPE="Radio" Name="Gender" Value="Male">M
+                    <INPUT TYPE="Radio" Name="Gender" Value="Female">F
+                </div>
+                <textarea placeholder="Your masage here" id="messageBox" name="txt"></textarea>
+                <!-- <input id="messageBox" type="text"> -->
+                
+                <button id="submitBtn">Submit</button>
+            </form>
+            <div id="img">
+                <img src="design/6.png" alt="">
+                
+            </div>
+        </div>
+        
+        <div >
+            <!-- <textarea class="result" id="submitResult" name="txt"></textarea> -->
+            <p class="result" id="submitResult"></p>
+        </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
