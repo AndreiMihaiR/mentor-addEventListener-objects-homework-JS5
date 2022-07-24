@@ -67,6 +67,7 @@ img {
     flex-direction: column-reverse;
     margin-left: 150px;
     margin-top: 5px;
+    
 
 }
 
@@ -85,4 +86,17 @@ img {
 .invalid {
     border: 1px solid red;
     
+}
+
+.mesage-container {
+    /* border: 10px solid black; */
+    margin: 20px;
+    background-color:white;
+    border-radius: 3%;
+    height: 30px;
+    font-size: 12px;
+
+    
+    
+  
 }
